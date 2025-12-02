@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Local Page Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Learn more about Local Page Studio and our approach to building simple, effective websites for local businesses." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand">
+          <div class="brand-mark">LP</div>
+          <div class="brand-text">
+            <span class="brand-name">Local Page Studio</span>
+            <span class="brand-sub">Local Web & SEO</span>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="about.html" class="nav-active">About</a>
+          <a href="contact.html" class="nav-cta">
+            Let’s talk <span class="pipe">|</span> <span>Free website chat</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <div class="section-header">
+          <h1 class="section-title">
+            A small studio with a <span class="accent">local focus</span>
+          </h1>
+          <p class="section-subtitle">
+            Local Page Studio exists to help small business owners look professional online
+            without getting lost in tech, trends, or buzzwords.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <p>
+              Most local businesses don’t need a huge marketing agency or a complex,
+              custom-built system. They need a website that:
+            </p>
+            <ul class="card-list">
+              <li>Loads quickly on phones</li>
+              <li>Explains their services clearly</li>
+              <li>Makes it easy for people to call, book, or visit</li>
+            </ul>
+            <p class="text-muted">
+              Our approach is straightforward: we listen to what you do every day,
+              then design a website that supports that work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">
+            How we like to <span class="accent">work</span>
+          </h2>
+          <p class="section-subtitle">
+            Simple communication, clear expectations, and respect for your time as a business owner.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card-header">
+              <div class="card-icon">🎯</div>
+              <h3 class="card-title">Clarity first</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                We start with a short conversation about your business, your customers,
+                and what “success” looks like for your website.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <div class="card-icon">📋</div>
+              <h3 class="card-title">Plain-language plans</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                You’ll always know what we’re working on, what we need from you,
+                and when your site will be ready to launch.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <div class="card-icon">🤝</div>
+              <h3 class="card-title">Long-term mindset</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                We want your website to be something you’re proud to send customers to
+                — not something you’re worried is out of date.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon">👋</div>
+            <h3 class="card-title">Ready when you are</h3>
+          </div>
+          <div class="card-body">
+            <p>
+              If you’ve been putting off your website because it feels like a big project,
+              we’d love to show you a simpler way.
+            </p>
+            <p class="text-muted">
+              Send a quick note to <strong>hello@localpagestudio.com</strong> with a few
+              sentences about your business, and we’ll follow up with next steps and
+              a rough timeline.
+            </p>
+            <a class="btn" href="mailto:hello@localpagestudio.com?subject=Tell%20me%20about%20your%20process">
+              Ask about the process
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>© <span id="year"></span> Local Page Studio. All rights reserved.</div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
