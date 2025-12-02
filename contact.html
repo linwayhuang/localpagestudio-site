@@ -45,30 +45,30 @@
 
         <div class="form-card">
           <!-- NOTE: This form won't submit anywhere yet. You can later hook it up to Formspree or other services. -->
-          <form class="form-grid" action="mailto:hello@localpagestudio.com" method="post" enctype="text/plain">
+          <form class="form-grid" action="https://formspree.io/f/xblnypwv" method="POST" enctype="text/plain">
             <div>
               <label for="name">Your name</label>
-              <input id="name" name="Name" type="text" required />
+              <input id="name" name="name" type="text" required />
             </div>
 
             <div>
               <label for="email">Email</label>
-              <input id="email" name="Email" type="email" required />
+              <input id="email" name="email" type="email" required />
             </div>
 
             <div>
               <label for="business">Business name</label>
-              <input id="business" name="Business" type="text" />
+              <input id="business" name="business" type="text" />
             </div>
 
             <div>
               <label for="website">Current website (if any)</label>
-              <input id="website" name="Website" type="url" placeholder="https://yourwebsite.com" />
+              <input id="website" name="website" type="url" placeholder="https://yourwebsite.com" />
             </div>
 
             <div>
               <label for="help">What would you like your website to help with?</label>
-              <select id="help" name="Goal">
+              <select id="help" name="goal">
                 <option value="">Select one</option>
                 <option value="more-calls">Get more calls</option>
                 <option value="more-bookings">Get more bookings/appointments</option>
@@ -83,6 +83,9 @@
               <textarea id="message" name="Message"
                 placeholder="A quick note about your services, locations, or what you’re looking for is perfect."></textarea>
             </div>
+
+            <input type="hidden" name="_subject" value="New message from Local Page Studio"/>
+            <input type="hidden" name="_language" value="en"/>
 
             <div>
               <button class="btn" type="submit">Send message</button>
