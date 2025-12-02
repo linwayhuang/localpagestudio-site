@@ -45,7 +45,7 @@
 
         <div class="form-card">
           <!-- NOTE: This form won't submit anywhere yet. You can later hook it up to Formspree or other services. -->
-          <form class="form-grid" action="https://formspree.io/f/xblnypwv" method="POST" enctype="text/plain">
+          <form class="form-grid" action="https://formspree.io/f/xblnypwv" method="POST">
             <div>
               <label for="name">Your name</label>
               <input id="name" name="name" type="text" required />
@@ -80,12 +80,13 @@
 
             <div>
               <label for="message">Anything else you’d like to share?</label>
-              <textarea id="message" name="Message"
+              <textarea id="message" name="message"
                 placeholder="A quick note about your services, locations, or what you’re looking for is perfect."></textarea>
             </div>
 
             <input type="hidden" name="_subject" value="New message from Local Page Studio"/>
             <input type="hidden" name="_language" value="en"/>
+            <input type="hidden" name="_redirect" value="https://localpagestudio.com/thank-you.html"/>
 
             <div>
               <button class="btn" type="submit">Send message</button>
@@ -93,7 +94,7 @@
           </form>
           <p class="form-footnote">
             Prefer to write your own email? Reach out directly at
-            <strong>hello@localpagestudio.com</strong>.
+            <strong>support@localpagestudio.com</strong>.
           </p>
         </div>
       </section>
